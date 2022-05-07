@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatiable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel=" stylesheet"  href="barber webdesign.css"> 
+<title> Barberia Salon </title>
+
+</head>
+<body>
+    <header>
+        <a href="a" class="logo"> Mohammed Radwan </a>
+        <nav class="navigation">
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+            
+
+    </header>
+
+    <section class="main">
+            <div>
+                <h2> Welcome to our legendary barbershop<br><span>Gentlemen's Choice</span> </h2>
+                <br>
+                <h3>Barbaria offers world-class men's haircuts, beard grooming, and hot razor shaves. Here are just some of the services we are famous for.</h3>
+                <a href="#projects" class="main-btn">view my work</a>
+                <div class="social-icons"> 
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+
+                </div>
+            </div>
+    </section>
+<section class="cards" id="services">
+    <h2 class="title">Services</h2>
+    <div class="content">
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-scissors"></i>                
+            </div>
+            <div class="info">
+                <h3>Beard Trim</h3>
+                <p>Well-trimmed beard is a must-have element for every man</p>
+
+            </div>
+        </div>    
+
+        <div class="card">
+                <div class="icon">
+                    <i class="fas fa-scissors"></i>                    
+                </div>
+                <div class="info">
+                    <h3>Hairstyles</h3>
+                    <p>One of the most popular services our barbers provide</p>
+    
+                </div>
+        </div>    
+
+        
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    
+    <h2 class="title">Projects</h2>
+    <div class="content">
+        <div class="project-card">
+            <div class="icon">
+                <i class="fab fa-youtube"></i>
+            </div>
+        
+            <div class="project-image">
+                <img src="Sample pictures/beardy.jpg"/>
+
+            </div>
+
+            <div class="project-info" id= containner> 
+                <p Class="project-category"> here's our daily work routine</p>
+                <strong class="project-title">
+                    <span>We make beautiful haircuts</span>
+                    <a href="#" class="more-details">More details</a>
+                </strong>
+            </div>    
+        </div>    
+    </div>   
+       <script>
+           var guy=document.getElemntById('Containner');
+           var containner=document.getElemntById('containner');
+           varguyLeft= 0;
+           function anim(e){
+               if(e.keycode==39){
+                   left +=2;
+                   guy.style.left = guyLeft = 'px';
+               }
+               if(e.keycode==37){
+                  left +=2;
+                  guy.style.left = guyLeft = 'px';
+               }
+           }
+       </script>
+    
+    <section class="cards contact" id="contact">
+         <h2 class="title">Let's work together</h2>
+         <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                    
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+201119711606</p>
+    
+                </div>
+            </div>    
+    
+            <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                        
+                    </div>
+                    <div class="info">
+                        <h3>Email</h3>
+                        <p>Mohamedradwan635@yahoo.com</p>
+        
+                    </div>
+            </div>   
+        </div>   
+        
+       
+    </section>
+    <footer class="Footer">
+        <p class="Footer-title">Copyrights @ <span> Mohammed Radwan</span></p>
+        <div class="social-icons"> 
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+
+        </div>
+    </footer>
+
+        
+</body>
+</html>
